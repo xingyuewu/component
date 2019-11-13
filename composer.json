@@ -1,5 +1,5 @@
 {
-    "name": "foundation/phpcommon",
+    "name": "xingyuewu/phpcommon",
     "description": "php-common",
     "require": {
         "php": ">=7.0.0",
