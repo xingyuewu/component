@@ -1,0 +1,22 @@
+{
+    "name": "foundation/phpcommon",
+    "description": "php-common",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": ">=7.0.0",
+        "ext-json": ">=1.3.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "PHPCommon\\":["src"]
+        },
+        "classmap": [
+            "src","src/Utils","src/SDK/","src/Log"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
